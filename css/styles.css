@@ -1,0 +1,158 @@
+/* Float Elements 
+---------------------------------*/
+.fl-lt {float:left;}
+.fl-rt {float:right;}
+
+/* Clear Floated Elements
+---------------------------------*/
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/*Basic Styles*/
+body {
+	background:#1A2238;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#888888;
+	margin:0;
+}
+
+h2{
+	font-size:34px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+h5{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:0 0 20px 0;
+}
+h6{
+	font-size:16px;
+	color:#888888;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	text-align:center;
+	margin:0 0 60px 0;
+}
+p{
+	line-height:24px;
+	margin:0;
+}
+
+#centerimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 40px 0 40px 0;
+	margin-bottom: 20px;
+}
+
+/*Header Styles*/
+.header{
+	background-color: white;
+	width: 100%;
+}
+#header {
+	background-image: url("../img/eduweb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 60px 0px 60px 0px;
+}
+
+/* Navigation Styles*/
+.main-nav-outer{
+	padding:0px;
+	border:1px solid #FF6A3D;
+	border-bottom:1px solid #FF6A3D;
+	box-shadow:0 4px 5px -2px black;
+	position:relative;
+	background:#FF6A3D;
+}
+
+.main-nav{
+	text-align:center;
+	margin:5px 0 0px;
+	padding:0;
+	list-style:none;
+}
+.main-nav li{
+	display:inline;
+	margin:0 1px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.main-nav li a{
+	display:inline-block;
+	color:white;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	line-height:20px;
+	margin:10px 32px;
+	transition:all 0.1s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover{ 
+	text-decoration:none;
+	color: #1A2238;
+	font-weight: bolder;
+}
+
+.main-section{
+	padding:90px 0 110px;
+}
+
+/*Content Styles*/
+
+#mainarea{
+	background-color: #9faaf2;
+	background:#1A2238;
+}
+
+#content{
+	border-right: 1px solid #FF6A3D;
+	padding: 120px 40px 120px 40px;
+	text-align: center;
+}
+
+footer{
+	padding:0px;
+	border:1px solid #FF6A3D;
+	border-bottom:1px solid #FF6A3D;
+	box-shadow:0 4px 5px -3px black;
+	position:relative;
+	background: linear-gradient(cyan, teal);
+	background:#FF6A3D;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
+
